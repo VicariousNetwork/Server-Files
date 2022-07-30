@@ -54,9 +54,9 @@
 #View / render distance optimization.
 ["View Distance"]
 	#Range: 4 ~ 32
-	viewDistanceMax = 16
+	viewDistanceMax = 12
 	#Range: 2 ~ 16
-	viewDistanceMin = 2
+	viewDistanceMin = 6
 	#Range: 2 ~ 16
 	viewDistanceDefault = 8
 
@@ -83,7 +83,7 @@
 
 [Spawner]
 	#Enable/Disable spawner optimizations.
-	spawnerEnabled = true
+	spawnerEnabled = false
 	#Defines the max. number of entities per world for spawners.
 	#Range: 1 ~ 4096
 	spawnerMaxEntityPerWorld = 1000
@@ -103,7 +103,7 @@
 
 	[Spawn.Limitations]
 		#Enable/Disable general spawn limitations for unknown mobs.
-		spawnLimitationEnabled = true
+		spawnLimitationEnabled = false
 		#Blocks every x spawn of unknown mobs to avoid an over population with the limited spawn area. Use 0 to disable this optimization.
 		#Range: 0 ~ 100
 		spawnLimitationLimiter = 10
